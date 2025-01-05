@@ -1,0 +1,16 @@
+Region,Neighborhood,Price (SGD),Bedrooms,Bathrooms,House Size (sq ft),Description,Neighborhood Description
+Central,Orchard Road,3500000,3,2,1200,Luxurious apartment with modern amenities and stunning city views.,Orchard Road is a vibrant shopping district known for its high-end retail and dining.  
+Central,Bukit Timah,2800000,4,3,2500,Spacious family home with a large garden and proximity to nature parks.,Bukit Timah is a serene residential area with lush greenery and top schools nearby.  
+Central,Sentosa Cove,5200000,5,5,4000,Exclusive waterfront villa with private pool and direct sea access.,Sentosa Cove is a luxurious resort-style community known for its upscale lifestyle.  
+Central,Tiong Bahru,1600000,2,1,800,Charming heritage apartment with a cozy balcony and vintage decor.,"Tiong Bahru is a trendy neighborhood with a mix of old and new, famous for its cafes."
+East,East Coast,2200000,3,2,1800,Modern townhouse with easy access to the beach and parks.,"East Coast is known for its beautiful coastline, recreational activities, and eateries."
+Central,Holland Village,2500000,4,3,2200,Stylish home with an open-concept layout and vibrant neighborhood vibes.,Holland Village is a lively area with a mix of local and international dining options.  
+Central,Marina Bay,4000000,3,2,1500,Contemporary apartment with panoramic views of the Marina Bay skyline.,Marina Bay is a bustling financial district with iconic landmarks and attractions.  
+West,Jurong East,1200000,3,2,1000,Affordable family home close to shopping malls and public transport.,Jurong East is a growing commercial hub with various amenities and recreational spaces.  
+NorthEast,Punggol,1000000,4,3,1600,Modern HDB flat with spacious living areas and community facilities.,Punggol is a waterfront town known for its family-friendly environment and parks.  
+West,Bukit Batok,1500000,3,2,1200,Cozy home with a backyard and nearby nature reserves.,Bukit Batok is a peaceful residential area with parks and good schools.  
+Central,Novena,2000000,2,2,1000,Elegant apartment with modern finishes and close to medical facilities.,Novena is a central area known for its healthcare institutions and shopping options.  
+North,Woodlands,900000,3,2,1400,Affordable home with a community feel and access to amenities.,Woodlands is a suburban area with a mix of residential and commercial developments.  
+NorthEast,Serangoon,1800000,4,3,2000,Spacious semi-detached house with a large garden and family-friendly layout.,Serangoon is a vibrant neighborhood with diverse dining options and good schools.  
+North,Yishun,1100000,3,2,1300,Comfortable home with modern amenities and nearby parks.,Yishun is a family-oriented town with various recreational facilities and amenities.  
+West,Clementi,1400000,3,2,1500,Well-maintained apartment with easy access to public transport.,"Clementi is a bustling area with shopping malls, schools, and recreational spaces."
