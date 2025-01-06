@@ -9,7 +9,13 @@
         <a href="#about-the-project">About The Project</a>
         <ul>
             <li><a href="#folder-structure">Folder Structure</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#prompting">Prompting</a>
+        <ul>
             <li><a href="#datasets">Datasets</a></li>
+            <li><a href="#personalization">Personalization</a></li>
         </ul>
     </li>
     <li>
@@ -73,13 +79,23 @@ The following are the files found in the workspace
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- Prompting -->
+## Prompting
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- datasets -->
 ### Datasets
 
 The generated property listings is stored in `listings.csv`. <br>
 The listings are generated with the following prompt:
+
 ```
-You are a property guru in singapore. I need 15 listing of house around singapore. Can you generate them with the following fields: Neighborhood, Price, Bedrooms, Bathroom, House Size, Description, Neigborhood Description
+You are a property guru in singapore. 
+I need {listing_count} listing of house around {country}.
+
+Can you generate them with the following fields in csv format: 
+Neighborhood, Price, Bedrooms, Bathroom, House Size, Description, Neigborhood Description
 ```
 
 The dataset contains the following columns:
@@ -92,6 +108,21 @@ The dataset contains the following columns:
 |5|House Size (sq ft)|The dimension of the property|1200|
 |6|Description|A brief description about the property|Luxurious apartment with modern amenities and stunning city views.|
 |7|Neighborhood Description|A brief description about the neighborhood|Orchard Road is a vibrant shopping district known for its high-end retail and dining|
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- personalization -->
+### Personalization
+
+The personalize descriptions are generated with the following prompt:
+
+```
+The user input for the search is: {user_input}.
+The recommendation from the search is: {search_recommendation}. 
+
+Return the result with the rest of the fields untouched and replacing the description and neigborhood description with a personalized touch based using the user input in order to appeal to them.
+Use only data from the recommendation and user input and do not provide any non-factual input.
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
