@@ -59,6 +59,7 @@ The following are the files found in the workspace
 ├── images
 ├── listings.csv
 ├── README.md
+├── requirements.txt
 ```
 
 |#|File/Folder|Description|
@@ -68,6 +69,7 @@ The following are the files found in the workspace
 |3|images|Screenshots for the README.md|
 |4|listings.csv|Data file containing the property details|
 |5|README.md|Contain information regarding the application and the setup|
+|6|requirements.txt|Libraries that needed to be installed for the application|
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -133,10 +135,15 @@ The following is the workflow:
 <!-- GETTING STARTED -->
 ### Getting Started
 
-The following are the steps to run the application:
-1. First we have to run `HomeMatch.ipynb` section `Import Libraries` till `Personalizing Listing Descriptions` to load the necessary libraries and configurations.
-2. Once done, we can then run the codes under the section `Building the User Preference Interface`
-3. You will be prompted with the following questions and the personalized recommendations will be generated once all the answers are provided
+The following are the steps to run the application in `HomeMatch.ipynb`:
+1. To start, update the `os.environ["OPENAI_API_KEY"]` with your API Key
+```python
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
+os.environ["OPENAI_API_BASE"] = "https://openai.vocareum.com/v1"
+```
+2. Next, we will need to run the section from `Import Libraries` till `Personalizing Listing Descriptions` to load the necessary libraries and configurations.
+3. Once done, we can then run the the section `Building the User Preference Interface` to spin out a text interface for getting user preferences.
+4. You will be prompted with the following questions and the personalized listings will be generated once all the answers are provided
 
 <br>
 
@@ -155,7 +162,7 @@ The following show a snapshot of the questions and answers:
 
 The following show the result return by the llm:
 
-![User Recommendation][interface-personalized-recommendations]
+![Personalised Listing][interface-personalized-listings]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -204,6 +211,7 @@ Here are some resources that have helped in completing this project!
 [inteface-workflow]: ./images/Interface_Workflow.png
 [interface-input]: ./images/Interface_Input.png
 [interface-personalized-recommendations]: ./images/Interface_Personalized_Recommendation.png
+[interface-personalized-listings]: ./images/Interface_Personalized_Listing.png
 [troubleshooting-trust-notebook]: ./images/Troubleshooting_Setting_Notebook_To_Trusted.png
 [readme-template-url]: https://github.com/othneildrew/Best-README-Template/blob/master/README.md
 [chroma-documentation-url]: https://docs.trychroma.com/docs/overview
